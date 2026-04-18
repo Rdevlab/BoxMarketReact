@@ -1,0 +1,17 @@
+@import "tailwindcss";
+:root {
+  ---green: #22c55e;
+  /* header, footer, imptext */
+  ---darkGreen: #14532d;
+  /* bg , heighlights */
+  ---lightgreen: #dcfce7;
+  /* discounts, cta btns */
+  ---orange: #f97316;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+* {
+  font-family: "poppins", sans-serif;
+  scroll-behavior: smooth;
+}
