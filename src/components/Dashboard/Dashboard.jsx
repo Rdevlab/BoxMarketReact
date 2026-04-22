@@ -28,9 +28,13 @@ const Dashboard = () => {
     <section className="h-screen w-full flex bg-white z-50">
       <aside
         id="aside"
-        className="w-60 shrink-0 transition-all duration-300 h-full relative backdrop-blur-sm px-4 pr-4 flex flex-col items-center justify-center pt-26 gap-4 border-r border-gray-400">
+        className="w-60 shrink-0 transition-all duration-300 h-full relative backdrop-blur-sm px-4 pr-4 flex flex-col items-center justify-center  gap-4 border-r border-gray-400">
         <div className="w-full flex gap-2 h-full items-center overflow-hidden">
-          <img src="" alt="logo" className="w-10 shrink-0 h-10 rounded-full border" />
+          <img
+            src={BackgroundBlur}
+            alt="logoN"
+            className="w-10 shrink-0 h-10 rounded-full border"
+          />
           <h1
             id="adminName"
             className="text-green-800 font-bold text-xl shrink-0 duration-300 transitioan-all">
